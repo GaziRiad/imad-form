@@ -78,11 +78,11 @@ function Form() {
         </div>
       </div>
       {/*  */}
-      <div className="z-50 mb-14">
+      {/* <div className="z-50 mb-14">
         <h2 className="text-center font-display text-[2.5rem]">
           Wat wil je bestellen?
         </h2>
-        {/* <div className="flex flex-col items-stretch gap-5">
+        <div className="flex flex-col items-stretch gap-5">
           <Input
             id="bootcampLesson"
             placeholder="0"
@@ -99,10 +99,10 @@ function Form() {
             type="number"
             label="Jouw Beste Versie de challenge"
           />
-        </div> */}
-      </div>
+        </div>
+      </div> */}
 
-      <button className="z-50 mx-auto w-fit rounded-[40px] border bg-lightGrey px-6 py-2 text-base font-light text-brown transition-all hover:bg-brown/80 hover:text-lightGrey">
+      <button className="z-50 mx-auto w-fit rounded-[40px] border px-6 py-2 text-base font-light transition-all bg-white hover:bg-blue-800 hover:text-white">
         Make an order
       </button>
     </form>

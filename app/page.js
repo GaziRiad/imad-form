@@ -4,8 +4,13 @@ import Form from "./_components/Form";
 function page() {
   return (
     <section className="min-h-screen bg-brown px-5 py-20 text-lightGrey bg-white text-black section-bg">
+      <header className="h-24 mx-auto max-w-5xl mb-12">
+        <Link href="" className=" text-4xl text-blue-700 font-extrabold">
+          Ru Study
+        </Link>
+      </header>
       <div className="mx-auto max-w-5xl">
-        <h1 className="mb-10 text-center font-display text-[2.5rem] leading-tight xl:text-[4rem]">
+        <h1 className="mb-10 text-center text-[2.5rem] leading-tight xl:text-[4rem] font-semibold">
           Study in Russia Signup
         </h1>
         <p className="mb-16 text-center text-base font-normal text-lightGrey/90">
